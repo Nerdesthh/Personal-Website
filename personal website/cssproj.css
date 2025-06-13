@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+a:link 
+{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited 
+{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover 
+{
+  color: white;
+  text-decoration: none;
+}
+
+a:active 
+{
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center; /* vertically center items */
+    justify-content: space-between; /* space between name and links */
+    padding: 10px 20px;
+    background-color: rgba(250, 61, 61, 0.568);
+}
+
+body
+{
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+
+}
+
+p.Name {
+    color: white;
+}
+
+#links a
+{
+    margin: 0 10px;
+}
+
+#links 
+{
+    text-align: center;
+    right: 10px;
+    z-index: 1000;
+}
+
+.WelcomeBox 
+{
+    width: 200px;
+    height: 150px;
+    background-color: #fff;
+    border: 2px solid hsl(0, 73%, 68%);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 20px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    color:#333;
+}
+

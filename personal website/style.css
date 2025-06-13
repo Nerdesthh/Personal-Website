@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(31, 30, 30);
+    
+}
+
+a:link 
+{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited 
+{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover 
+{
+  color: white;
+  text-decoration: none;
+}
+
+a:active 
+{
+  color: white;
+  text-decoration: none;
+}
+
+:root {
+    --main-red: #e74c3c;
+    --dark-red: #b83227;
+    --light-red: #ffebe9;
+    --white: #fff;
+    --dark: #222;
+}
+
+/* General background */
+body {
+    background-color: var(--light-red);
+    color: var(--dark);
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-y: scroll;
+}
+
+/* Header and nav */
+nav {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 14px 32px;
+    background-color: var(--main-red);
+    font-size: 25px;
+    box-shadow: 0 2px 8px rgba(231,76,60,0.08);
+}
+
+p.Name {
+    color: var(--white);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Links */
+#links {
+    text-align: center;
+    z-index: 1000;
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+#links a {
+    margin: 0 10px;
+    color: var(--white);
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+a:link, a:visited {
+    color: var(--white);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: var(--dark);
+    text-decoration: underline;
+}
+
+/* Button */
+.button1 {
+    padding: 14px 28px;
+    display: inline-block;
+    /* top right bottom left*/
+    margin: 40px 0 0 1009px; /* 40px from top, 1000px from left */
+    background-color: var(--main-red);
+    color: var(--white);
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(231,76,60,0.12);
+    z-index: 1000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* Image */
+.myimage img {
+    width: 560px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 16px;
+    background-color: var(--white);
+    border: 3px solid var(--main-red);
+    box-shadow: 0 2px 12px rgba(231,76,60,0.12);
+    display: block;
+    margin: 40px auto 0 auto; /* 40px top margin, centered horizontally */
+    /* Removed transform and huge margin */
+}
+
+/* Welcome Box */
+.WelcomeBox {
+    width: 800px;
+    margin: 40px auto 0 auto; 
+    background-color: var(--white);
+    border: 2px solid var(--main-red);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 12px rgba(231,76,60,0.08);
+    color: var(--dark-red);
+}
+
+/* Footer */
+footer {
+    background-color: var(--main-red);
+    color: var(--white);
+    text-align: center;
+    padding: 12px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    box-shadow: 0 -2px 8px rgba(231,76,60,0.04);
+}
